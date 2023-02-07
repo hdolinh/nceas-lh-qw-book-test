@@ -1,0 +1,37 @@
+project:
+  type: website
+
+website:
+# title appears above the search bar on the sidebar
+  title: "Website title"
+  sidebar: 
+    style: "docked"
+    search: true
+    contents:
+      - index.qmd
+      - about.qmd
+  # title: "nceas-lh-qw-book-test"
+  # # added author
+  # author: "Halina Do-Linh"
+  # # creates gitub icon and links to github repo
+  # # repo-url:
+  # # allows the book to downloaded as a pdf
+  # # does pdf need to be in square brackets?
+  # # downloads: pdf
+  # sidebar:
+  #   style: "docked"
+  #   # added search
+  #   search: true
+  #   contents:
+  #     - href: index.qmd
+  #       text: Home
+  #     - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
